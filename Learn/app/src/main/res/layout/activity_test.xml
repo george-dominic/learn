@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.georgedominic.learn.test"
+    android:background="@color/bck">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Instructions"
+        app:layout_constraintBottom_toTopOf="@id/card1"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp"
+        app:layout_constraintBottom_toTopOf="@id/card2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/white"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp">
+            <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/test_inst1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acss" />
+-->
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst1"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst2"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst3"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst4"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst5"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="@string/test_inst6"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="220dp"
+        android:id="@+id/card2"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card1">
+
+        <RelativeLayout
+            android:id="@+id/rlayout"
+            android:layout_width="match_parent"
+            android:layout_height="210sp"
+            android:background="@color/white">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="Questions                                            "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="Score                                            "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="20"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="Minutes                                            "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="30"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/start"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

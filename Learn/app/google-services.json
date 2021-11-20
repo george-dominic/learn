@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "275772410904",
+    "firebase_url": "https://learn-27289.firebaseio.com",
+    "project_id": "learn-27289",
+    "storage_bucket": "learn-27289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275772410904:android:cf1753b7045896a1",
+        "android_client_info": {
+          "package_name": "com.example.georgedominic.learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275772410904-61fv6lgq4pu5skdadg8n9g4prlprdfqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.georgedominic.learn",
+            "certificate_hash": "bdd599c58271c8ba5c4ca478130a57801fc73bc3"
+          }
+        },
+        {
+          "client_id": "275772410904-ha96joos1sr015a2loj75qah8b42thbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.georgedominic.learn",
+            "certificate_hash": "1a255f4f9f366e4d4c97d1ce27ee697875501dcf"
+          }
+        },
+        {
+          "client_id": "275772410904-u5sfjf417pmn0ot90rd6dgdh8s535mnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsfXTFuSx9FeWqRVJvuKh__R7_hdtw3Sk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275772410904-u5sfjf417pmn0ot90rd6dgdh8s535mnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

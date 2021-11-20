@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/lblListItem"
+        android:background="@color/white"
+        android:textSize="16dp"
+        android:paddingTop="23dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"/>
+</android.support.constraint.ConstraintLayout>

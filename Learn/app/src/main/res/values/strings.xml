@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Learn</string>
+    <string name="title_home">Home</string>
+    <string name="title_practice">Practice</string>
+    <string name="title_tests">Tests</string>
+    <string name="quant">Quantative Aptitude</string>
+    <string name="subjects">Subjects</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab2">tab2</string>
+    <string name="tab1">tab1</string>
+    <string name="tab3">tab3</string>
+    <string name="ns">Number system</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_simplification">Simplification</string>
+    <string name="ques1">Question 1</string>
+    <string name="ques2">Question 2</string>
+    <string name="ques3">Question 3</string>
+    <string name="options">Options</string>
+    <string name="ans">Answer</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="sign_in">Sign in </string>
+    <string name="create_account">Create Account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_average">Average</string>
+    <string name="title_activity_percentage">Percentage</string>
+    <string name="title_activity_probability">Probability</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="emailpassword_title_text">Sign in</string>
+    <string name="signed_out">Signed out</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="loading">Loading</string>
+    <string name="hello">Hello,</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="test_inst1">1. This test comprises multiple-choice questions (MCQs)</string>
+    <string name="test_inst2">2. Each question will have only 1 correct answer</string>
+    <string name="test_inst3">3. 1 mark will be awarded for each correct answer</string>
+    <string name="test_inst4">4. No negative marking</string>
+    <string name="test_inst5">5. No mark will be deducted for un-attempted questions</string>
+    <string name="test_inst6">6. Using unfair means of any sort will lead to disqualification </string>
+    <string name="test1">Questions                                                         </string>
+    <string name="test2">Score                                                         </string>
+    <string name="test3">Minutes                                                         </string>
+    <string name="start">Start Test</string>
+    <string name="title_activity_test1">test1</string>
+    <string name="title_activity_algebra">Algebra</string>
+    <string name="title_activity_ratio">Ratio</string>
+    <string name="title_activity_interest">Interest</string>
+    <string name="title_activity_analogy">Analogy</string>
+    <string name="title_activity_blood">Blood and Relations</string>
+    <string name="title_activity_coding">Coding and Decoding</string>
+    <string name="title_activity_puzzle">Puzzle</string>
+    <string name="title_activity_series">Series</string>
+
+
+</resources>
